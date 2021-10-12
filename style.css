@@ -145,7 +145,7 @@ h4 {
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
-.contact-form input[type="number"],
+.contact-form input[type="tel"],
 .contact-form textarea {
     width: 100%;
     height: 60px;
@@ -158,7 +158,7 @@ h4 {
 
 .contact-form input[type="text"]:focus,
 .contact-form input[type="email"]:focus,
-.contact-form input[type="number"]:focus,
+.contact-form input[type="tel"]:focus,
 .contact-form textarea:focus {
     box-shadow: none;
     border-color: #000;
@@ -181,6 +181,10 @@ h4 {
 }
 .site-btn-primary:focus {
     box-shadow: none;
+}
+
+.contact-form ::placeholder {
+    color: #bbb;
 }
 
 /* FOOTER */
