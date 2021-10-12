@@ -14,3 +14,13 @@
 .bc_blue {
     background-color: rgb(0, 13, 197);
 }
+
+/* HEADER */
+
+.main-header .site-brand {
+    font-size: 1.5rem;
+}
+
+.main-header .site-navbar a.color-link{
+    color: #fff;
+}
