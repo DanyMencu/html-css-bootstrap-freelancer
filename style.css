@@ -1,3 +1,12 @@
+/* GENERALS STYLES */
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
 /* UTILIES */
 
 .img_box {
@@ -15,6 +24,41 @@
     background-color: rgb(0, 13, 197);
 }
 
+.bc_turquoise {
+    background-color: #2eb6c1;
+}
+
+/* STAR SEPARATOR */
+
+.star_sep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star_sep i {
+    font-size: 1.5rem;
+    margin: 10px 20px;
+}
+
+.star_sep::before {
+    content: "";
+    display: block;
+    width: 125px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: currentcolor;
+}
+
+.star_sep::after {
+    content: "";
+    display: block;
+    width: 125px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: currentcolor;
+}
+
 /* HEADER */
 
 .main-header .site-brand {
@@ -24,3 +68,10 @@
 .main-header .site-navbar a.color-link{
     color: #fff;
 }
+
+/* HERO */
+
+.hero_img {
+    height: 12rem;
+}
+
