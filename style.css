@@ -83,3 +83,25 @@ h4 {
 .img-box img {
     width: 100%;
 }
+
+/* ABOUT SECTION */
+
+.site-btn{
+    padding: .75rem 2rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.site-btn-outline-primary {
+    color: white;
+    border-color: white;
+}
+
+.site-btn-outline-primary:hover {
+    color: #2eb6c1;
+    background-color: #fff;
+}
+
+.site-btn-outline-primary:focus {
+    box-shadow: none;
+}
