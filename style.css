@@ -72,6 +72,10 @@ h4 {
     color: #fff;
 }
 
+.main-header .navbar-collapse a.color-link:hover {
+    color: #2eb6c1;
+}
+
 /* HERO */
 
 .hero_img {
@@ -83,8 +87,36 @@ h4 {
 
 /* PORTFOLIO SECTION */
 
+.img-box {
+    position: relative;
+    cursor: pointer;
+}
+
 .img-box img {
     width: 100%;
+}
+
+.overlay-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.overlay-container i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: #fff;
+}
+
+.img-box .overlay-container:hover {
+    opacity: 1;
 }
 
 /* ABOUT SECTION */
